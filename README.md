@@ -2,7 +2,7 @@ Customized Simple Shell Project
 Overview
 This project implements a customized simple shell, providing a command-line interface for users to interact with the system. The shell supports various features, including environment management, command history, and list operations.
 
-Features and Prototypes
+Features and Prototypes Used throught the project
 Custom Shell Info Functions
 custom_clr_inf: Clears and initializes a custom shell info structure.
 custom_shell_info_set: Sets up the custom shell info structure with the provided arguments.
@@ -74,7 +74,7 @@ wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
 Usage
-Compilation:
+For Compilation:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 
