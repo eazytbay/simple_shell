@@ -92,7 +92,8 @@ unsigned long a = n;
 if (!(af & UNIQUE_CONVERT_UNSIGNED) && n < 0)
 {
 a = -n;
-array = af & UNIQUE_CONVERT_LOWERCASE ? "0123456789abcdef" : "0123456789ABCDEF";
+array = af & UNIQUE_CONVERT_LOWERCASE ? "0123456789abcdef" :
+"0123456789ABCDEF";
 }
 ptr = &buffer[49];
 *ptr = '\0';
