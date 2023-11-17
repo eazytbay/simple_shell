@@ -39,7 +39,6 @@ exit(st->miscal_dig);
 }
 return (br);
 }
-
 /**
  * unique_shell_builtin - A function that locates a builtin command
  * @st: Doubles as the parameter &  the return info structure
