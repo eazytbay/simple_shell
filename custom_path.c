@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * execute_from_path - A function that executes a command in the path
+ * execute_from_path - This function executes a command in the path
  * @command: full path to the command
  * @vars: pointer to struct of variables
  *
@@ -72,7 +72,9 @@ char *find_executable_path(char **env)
 void search_for_executable_in_path(vars_t *vars)
 {
 char *wy, *dup_path = NULL, *loc = NULL;
-unsigned int x = 0, y = 0, char **path_tokens, struct stat buf;
+unsigned int x = 0, y = 0; 
+char **path_tokens; 
+struct stat buf;
 
 	if (check_for_directory(vars->arguments[0]))
 		y = execute_from_current_directory(vars);
@@ -119,7 +121,8 @@ unsigned int x = 0, y = 0, char **path_tokens, struct stat buf;
  */
 int execute_from_current_directory(vars_t *vars)
 {
-	pid_t child_pid, struct stat buf;
+	pid_t child_pid; 
+	struct stat buf;
 
 	if (stat(vars->arguments[0], &buf) == 0)
 	{

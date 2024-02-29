@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * print_error_message - A function that prints error messages to stderr
+ * print_error_message - A function that outputs error messages to stderr
  * @vars: pointer to struct of variables
- * @msg: message to print
+ * @msg: The exact message to print
  *
  * Return: void
  */

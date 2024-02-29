@@ -1,7 +1,8 @@
 #include "shell.h"
 
 /**
- * add_key_value_pair - A function that creates a new environment variable
+ * add_key_value_pair - This function basically creates a new
+ * environment variable
  * @vars:This pointer points to the struct of the variables
  *
  * Return: void

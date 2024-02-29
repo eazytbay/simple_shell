@@ -3,7 +3,7 @@
 unsigned int flag_signal;
 
 /**
- * sig_handler - This function handles signal interupt of C
+ * sig_handler - A function that handles signal interupt of C
  * @uuv: This is an unused variable which is required for signal
  * function prototype
  *

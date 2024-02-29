@@ -1,8 +1,7 @@
 #include "shell.h"
 
 /**
- * duplicate_environment - A function that duplicates the shell environment
- * from the environment passed to main
+ * duplicate_environment - This function duplicates the shell environment
  * @env: environment passed to main
  *
  * Return: pointer to the new environment

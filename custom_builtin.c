@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * find_builtin - A function that confirms if the command is a builtin
+ * find_builtin - This function confirms if the command is a builtin
  * @vars: variables
  * Return: pointer to the function or NULL
  */

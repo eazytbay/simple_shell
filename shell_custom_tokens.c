@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * find_match - A function that checks if a character matches any in a string
+ * find_match - This function checks if a character matches any in a string
  * @c: character to check
  * @str: string to check
  *

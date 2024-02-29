@@ -1,14 +1,14 @@
 #include "shell.h"
 
 /**
- * _reallocate_memory - A function that reallocates a pointer to
+ * reallocate_memory - This function reallocates a pointer to
  * double the space
  * @ptr: points to the old array
  * @size: Acts as pointer that points to the number of elements
  * in the old array
  * Return: pointer to the new array
  */
-char **_reallocate_memory(char **ptr, size_t *size)
+char **reallocate_memory(char **ptr, size_t *size)
 {
 	char **fr;
 	size_t x;

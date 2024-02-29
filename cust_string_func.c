@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * write_string -  A fucntion that writes a string to stdout
+ * write_string -  This function writes a string to stdout
  * @str: string to write
  *
  * Return: number of chars printed or -1 on failure

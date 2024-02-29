@@ -2,7 +2,7 @@
 
 
 /**
- * tokenize_string - A function that tokenizes a buffer with a delimiter
+ * tokenize_string - This function tokenizes a buffer with a delimiter
  * @buffer: buffer to tokenize
  * @delimiter: delimiter to tokenize along
  *
